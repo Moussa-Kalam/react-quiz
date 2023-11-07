@@ -1,12 +1,12 @@
 import { Options } from "./Options";
 
 /* eslint-disable react/prop-types */
-function Question({ question }) {
+function Question({ question, dispatch, answer }) {
   console.log(question);
   return (
     <div>
       <h4>{question.question}</h4>
-      <Options question={question} />
+      <Options question={question} dispatch={dispatch} answer={answer} />
     </div>
   );
 }
