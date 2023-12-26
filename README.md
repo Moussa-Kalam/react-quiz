@@ -1,8 +1,19 @@
-# React + Vite
+# The React Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the React Quiz where you can test your React mastery by answer some interesting questions.
 
-Currently, two official plugins are available:
+## Setup instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Install the dependencies
+   `npm install`
+
+2. Run the json-server
+   `npm run server`
+
+3. Run the vite server to preview the app in your browser
+   `npm run dev`
+
+## Technologies
+
+- React 18
+- State management: `useReducer + context`

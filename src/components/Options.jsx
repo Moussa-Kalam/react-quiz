@@ -1,7 +1,10 @@
 /* eslint-disable react/prop-types */
+import { useQuiz } from "../context/quizContext";
 import classNames from "classnames";
 
-export const Options = ({ question, dispatch, answer }) => {
+export const Options = ({ question }) => {
+  const { answer, dispatch } = useQuiz();
+
   const hasAnswered = answer !== null;
 
   return (
